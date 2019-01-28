@@ -1,2 +1,2 @@
 console.log('Imported module');
-export default 998;
+export default 998; // official ES6 module syntax

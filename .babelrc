@@ -1,9 +1,11 @@
+// babel config file
+
 {
-    "presets": [
-        ["env", {
+    "presets": [ // presets: a collection of code transform plugins
+        ["@babel/preset-env", {
             "targets": {
                 "browsers": [
-                    "last 5 versions",
+                    "last 5 versions", // babel automatically figures out which ES6 features it needs to convert to work on the last five versions of all the browers
                     "ie >= 8"
                 ]
             }

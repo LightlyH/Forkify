@@ -23,7 +23,7 @@ import * as likesView from './views/likesView';
 import { elements, renderLoader, clearLoader } from './views/base';
 
 /** Global state of the app
- * - Search object
+ * - Search object: has search query and search results
  * - Current recipe object
  * - Shopping list object
  * - Liked recipes
