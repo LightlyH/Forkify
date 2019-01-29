@@ -61,7 +61,7 @@ const createButton = (page, type) => `
 ;
 
 const renderButtons = (numResults, page, resPerPage) => {
-    const pages = Math.ceil(numResults / resPerPage); 
+    const pages = Math.ceil(numResults / resPerPage); // round up, to the next int
     
     let button;
     if (page === 1 && pages > 1) {
