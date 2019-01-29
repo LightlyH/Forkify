@@ -1,5 +1,6 @@
 import axios from 'axios';
-import { key, proxy } from '../config';
+import { proxy } from '../config';
+import { key } from '../key';
 
 export default class Recipe {
     constructor(id) {
